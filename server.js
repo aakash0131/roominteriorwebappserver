@@ -4,7 +4,7 @@ const axios = require('axios')
 const port = 8000;
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const config = require('../src/components/config.json')
+const config = require('./config.json')
 const path = require('path')
 
 app.use(function (req, res, next) {
